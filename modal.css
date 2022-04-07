@@ -1,0 +1,190 @@
+.vmodal { 
+    overflow-y: auto;
+}
+.vmodal.open .modal-overlay,
+.vmodal.open .modal-window{
+    opacity: 1;
+    z-index: 200;
+}
+
+.vmodal.hide .modal-overlay,
+.vmodal.hide .modal-window{
+    opacity: 1;
+    z-index: 200;
+}
+
+.vmodal.open .modal-window {
+    transform: translateY(100px);
+}
+.vmodal.open .modal-overlay {
+    background: rgba(0, 0, 0, .5);
+}
+
+.vmodal.hide .modal-window {
+    transform: translateY(-1000px);
+}
+.vmodal.hide .modal-overlay {
+    background: rgba(0, 0, 0, 0);
+}
+
+.modal-window, .modal-overlay {
+    opacity: 0;
+    z-index: -1;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background .2s ease-in;
+    overflow: auto;
+}
+
+.modal-window {
+    width: 1140px;
+    min-width: 640px;
+    min-height: 730px;
+    height: auto;
+    background: #F9FAFD;
+    border-radius: 20px;
+    margin: 0px auto;
+    border-bottom: 1px solid #eee;
+    transform: translateY(-200px);
+    transition: transform .2s ease-in;
+    overflow: auto;
+}
+.modal-header {
+    padding: 5px 10px;
+}
+.modal-title {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 516px;
+    top: 40px;
+    font-family: 'Dosis';
+    font-size: 24px;
+}
+.modal-close {
+    cursor: pointer;
+    padding: 20px;
+    font-size: large;
+}
+.modal-body {
+    padding: 10px;
+}
+.modal-body .modal-box {
+    margin-left: 485px;
+    margin-bottom: 50px;
+    background: #FF7417;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 110px;
+    height:40px;
+}
+.modal-box .modal-text {
+    text-align: center;           
+    padding-top: 5px;
+    font-size: 23px;
+    color: black;
+    font-family: 'Dosis'
+}
+.total {
+    position: absolute;
+    top: -50px;
+    left: 40%;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+    font-family: 'Dosis';
+}
+#summary {
+    position: absolute;
+    left: 50%;
+}
+.modal__item {
+    padding-top: 40px;
+    padding-left: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 95px;
+    width: 640px;
+}
+.modal__item .modal__img {
+    height: 95px;
+    width: 95px;
+}
+.modal__name {
+    position: absolute;
+    font-family: 'Dosis';
+    align-self: center;
+    font-size: 19px;
+    top: 46px;
+    left: 495px;
+}
+.modal__price {
+    position: absolute;
+    font-family: 'Dosis';
+    top: 85px;
+    font-size: 18px;
+    left: 535px;
+    color: #FF7417;
+}
+.item-box {
+    min-height: 350px;
+}
+.cash-box {
+    position: relative;
+    margin-top: 150px;
+}
+
+#modal__arrow-up {
+    position: absolute;
+    width: 20px;
+    left: 110%;
+    height: 20px;
+    cursor: pointer;
+}
+
+#modal__arrow-down {
+    position: absolute;
+    left: auto;
+    right:-93px;
+    top: 100px;
+    width: 13px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.modal__count {
+    position: absolute;
+    font-family: 'Dosis';
+    font-size: 16px;
+    left: auto;
+    right:-88px;
+    top:67px
+}
+
+.modal__trashcan-box {
+    position: absolute;
+    left: auto;
+    right:-160px;
+    top:67px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.modal__trashcan-img {
+    position: absolute;
+    left: auto;
+    right:-160px;
+    top:67px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

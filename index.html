@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">;
+    <title>Gadget Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <header> 
+            <div id = "gadg">GADG</div>
+            <div id = "et">ET</div>
+            <div id = "cart" onclick = "modal.open()">Cart:</div>
+            <div id = "num"></div>
+    </header>
+    <main>
+            <div class = "box" id = "sort-by-price">
+                <div class = "box__text">Sort by Price</div>
+            </div>
+            <div class = "box" id = "sort-by-name">
+                <div class = "box__text">Sort by Product Name</div>
+            </div>
+    </main>
+    <footer>
+        <a href = "#" id = "contact-us">Contact us</a>
+        <a href = "#" id = "feed-back">Leave us with some feedback!!</a>
+        <p>© 2022 Gadget-store</p>
+    </footer>
+    <script src = "plugins/modal.js"></script>
+    <script src = "plugins/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+html{
+    overflow-x: hidden;
+}
+header {
+    position: absolute;
+    width: auto;
+    top: -3px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    background: #222222;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer {
+    position: absolute;
+    width: 1903px;
+    height: 90px;
+    left: 0px;
+    margin-top: 200px;
+    background: #222222;
+    border-radius: 0px;
+}
+.name {
+    position: absolute;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #222222;
+    display: block;
+    top: 65%;
+}
+.disabled__btn {
+    background: #17ca71;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    display: block;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.price {
+    position: absolute;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #222222;
+    display: block;
+    top: 76%;
+    left: 80%;
+}
+.box {
+    background: #EFEFEF;
+    border: 1px solid #A0A3AD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+main .box {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    display: block;
+    background: #EFEFEF;
+    border: 1px solid #A0A3AD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+#gadg {
+    position: relative;
+    top: 25px;
+    left: 115px;
+    font-family: 'Dosis';
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 10px;
+    color: #FFFFFF;
+    width: 15px;
+}
+#et {
+    position: relative;
+    left: 180px;
+    top: 15px;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 10px;
+    color: #FF7417;
+    width: 15px;
+}
+#cart {
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    left: 80%;
+    width: 10px;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 10px;
+    color: #FF7417;
+}
+#num {
+    width: 10px;
+    position: relative;
+    left: 83.5%;
+    top: -4px;
+    font-family: 'Dosis';
+    font-size: 20px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+#sort-by-name {
+    position: relative;
+    width: 195px;
+    height: 40px;
+    left: 255px;
+    top: 25px;
+}
+.box__text {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Dosis'
+}
+#sort-by-price {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    left: 1200px;
+    top: 70px;
+}
+.images {
+    position: absolute;
+    align-self: start;
+    height: 250px;
+}
+.cart-block {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    top: 100px;
+    left: 80px;
+}
+.cart__item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 350px;
+    width: 300px;
+}
+footer a {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FF7417;
+}
+footer p {
+    position: absolute;
+    color:#FFFFFF;
+    font-family: 'Dosis';
+    left: 150px;
+    top: 40px;
+}
+#feed-back {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+#contact-us {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
